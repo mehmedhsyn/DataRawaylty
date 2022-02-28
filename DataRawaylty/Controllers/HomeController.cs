@@ -11,7 +11,7 @@ namespace DataRawaylty.Controllers
 {
     public class HomeController : Controller
     {
-        string conn = @"Data Source=DESKTOP-2BGTDU9\SQLEXPRESS; User ID=DataRawaylty; Password=Awdsefdrgfth_1;";
+        string conn = @"Data Source=DESKTOP-2BGTDU9\SQLEXPRESS; User ID=DataRawaylty; Password=;";
         public ActionResult Index()
         {
             return View();
